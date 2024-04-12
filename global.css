@@ -1,0 +1,64 @@
+body { 
+       font-family: Comic Sans MS, Comic Sans, cursive, arial, sans-serif;
+       font-size: 13px;
+       line-height: 1.5;
+       margin: 0;
+	padding: 0;
+	background: #85F6FA ; 
+       background-image: url(images/spkl1.gif), url(images/logo2.png);
+      }
+
+h3 {padding: 0; 
+    margin: 0; 
+    text-decoration: underline;
+    text-align: center;}
+h4 {text-align: center;
+    font-size: 15px;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+div#txt1 { padding: 0px 5px 0px 5px; }
+
+div#wrapper { width: 728px; 
+              margin-left: auto;
+             margin-right: auto;
+             margin-top: 10px;
+             margin-bottom: 10px; 
+             background-color: #DDFFAB;
+             border: 5px double black ; }
+
+table { border: 1px solid black;
+        background-color: #F4FFAB ; 
+        margin: 10px; }
+
+header { height: 90px; 
+         width: 728px;
+        margin-bottom: 20px; }
+
+header h1, header p { text-indent: -9999999999px; }
+
+.home header { background: white url(images/test2.png) no-repeat ; }
+.petsd header { background: white url(images/petban.png) no-repeat ; }
+.personal header {background: white url(images/personalban.png) no-repeat ;}
+.gallery header { background: white url(images/galleryban.png) no-repeat; }
+.rooms header {background: white url(images/roomsban.png) no-repeat;}
+.roomo header {background: white url(images/roomoban.png) no-repeat;}
+.roomb header {background: white url(images/roombban.png) no-repeat;}
+
+
+
+footer { clear: both;
+        padding: 2px;
+        font-size: 75%;
+        text-align: center;
+        height: 1% ;
+        background-color: #FFFCAB ;
+        color: #E7CE5E;
+        border: 1px solid #E7CE5E; }
+
+        
